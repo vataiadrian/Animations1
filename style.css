@@ -1,5 +1,6 @@
 .box {
   animation: change-background 4s linear infinite alternate;
+  transition: transform 2s;
 }
 @keyframes change-background {
   0% {
@@ -11,6 +12,9 @@
   100% {
     background: green;
   }
+}
+.box:hover{
+  transform: rotate(360deg);
 }
 pre {
   line-height: 2;
