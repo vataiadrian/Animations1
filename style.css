@@ -14,7 +14,7 @@
   }
 }
 .box:hover{
-  transform: rotate(360deg);
+  transform: rotate(180deg);
 }
 pre {
   line-height: 2;
@@ -35,6 +35,10 @@ pre {
   position: absolute;
   top: 4em;
   left: 2em;
+}
+.kiemeles:hover{
+  border-radius: 500px;
+  background: rgba(170, 0, 0, 0.357)
 }
 @keyframes move-highlight {
   100% {
