@@ -50,6 +50,10 @@ pre {
 }
 .ugralas{
   animation: bounce 2.5s alternate infinite ease-in;
+  transition: font-size 1s;
+}
+.ugralas:hover{
+  font-size: 40px;
 }
 @media screen and (min-width:701px) {
   @keyframes bounce {
